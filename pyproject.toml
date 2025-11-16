@@ -1,0 +1,19 @@
+[project]
+name = "manga-fast"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langgraph>=1.0.3",
+]
+
+[dependency-groups]
+frontend = [
+    "streamlit>=1.51.0",
+]
+ml = [
+    "accelerate>=1.11.0",
+    "diffusers>=0.35.2",
+    "transformers>=4.57.1",
+]
